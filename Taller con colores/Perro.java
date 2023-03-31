@@ -3,13 +3,11 @@ package perro;
 
 public class Perro {
     
-    // Atributos
     private String colorPelaje;
     private String raza;
     private int edad;
     private String nombre;
     
-    // Constructor
     public Perro(String colorPelaje, String raza, int edad, String nombre) {
         this.colorPelaje = colorPelaje;
         this.raza = raza;
@@ -17,7 +15,6 @@ public class Perro {
         this.nombre = nombre;
     }
     
-    // Getters y Setters
     public String getColorPelaje() {
         return colorPelaje;
     }
